@@ -10,6 +10,9 @@
 - [ ] [Ejecutar Script:](/Scripts/ubuntu-setup.sh)
   - [ ] Descargar Script.
   - [ ] Asignar permisos de ejecucion.
+``` bash
+chmod +x ubuntu-setup.sh
+```
   - [ ] Mover archivos .pst al directorio del script.
   - [ ] Ejecutar.
 - [ ] [Cargar archivos pst](/pst.md)
