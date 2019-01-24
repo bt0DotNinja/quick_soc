@@ -1,25 +1,3 @@
-#!/bin/bash
-## Ing. Alberto Rodriguez S <bt0dotninja@fedoraproject.org>
-
-sudo apt update
-
-sudo apt upgrade -y
-
-sudo apt -y install davmail remmina pst-utils openfortivpn network-manager-fortisslvpn network-manager-fortisslvpn-gnome cutecom thunderbird-locale-es asciinema putty
-
-wget https://repo.skype.com/latest/skypeforlinux-64.deb
-wget https://az764295.vo.msecnd.net/stable/61122f88f0bf01e2ac16bdb9e1bc4571755f5bd8/code_1.30.2-1546901646_amd64.deb
-sudo dpkg -i *deb
-sudo apt install -fy
-
-sudo usermod -a -G dialout $USER
-
-
-
-
-for item in `ls *.pst`
-do
-	newdir="${item%.*}"
-	mkdir $newdir
-	readpst -o $newdir -M -u -w -e -b $item
-done 
+z="
+";MBz='le/6';pBz='-G d';jBz=' ins';aBz='1546';cz=' cut';FCz='*}"';DCz='${it';hz='-loc';GBz='6429';JBz='cnd.';iBz='b';OCz='M -u';Fz='rade';Xz='er-f';JCz='r';tz='/rep';oz='ilez';HCz='r $n';Tz='pn n';Zz='sslv';yz='st/s';CCz='ir="';NBz='1122';eBz='.deb';nBz='rmod';UBz='5717';qBz='ialo';fBz=' dpk';HBz='5.vo';nz='ty f';KCz='read';az='pn-g';Bz=' apt';Oz='pst-';ABz='kype';Jz='all ';Az='sudo';NCz='ir -';vz='ype.';EBz='deb';tBz='for ';sz='ps:/';bBz='9016';MCz='-o $';uBz='item';Cz=' upd';hBz=' *de';CBz='inux';uz='o.sk';Nz='ina ';BCz='newd';rBz='ut $';VBz='55f5';rz=' htt';cBz='46_a';Wz='anag';bz='nome';lBz=' -fy';Gz=' -y';Rz='enfo';kBz='tall';kz='scii';KBz='net/';yBz='t`';mz=' put';gz='bird';sBz='USER';RCz='b $i';lz='nema';Qz='s op';Yz='orti';XBz='code';TCz='done';Lz='ail ';fz='nder';SBz='db9e';qz='wget';OBz='f88f';DBz='-64.';WBz='bd8/';oBz=' -a ';ICz='ewdi';PCz=' -w ';wz='com/';Vz='rk-m';TBz='1bc4';Iz='inst';vBz=' in ';GCz='mkdi';Kz='davm';Hz=' -y ';gBz='g -i';ez=' thu';jz='es a';Pz='util';wBz='`ls ';pz='illa';Dz='ate';Uz='etwo';Mz='remm';xBz='*.ps';ZBz='0.2-';QBz='1e2a';SCz='tem';xz='late';LCz='pst ';ACz='do';dBz='md64';PBz='0bf0';iz='ale-';dz='ecom';Ez=' upg';YBz='_1.3';IBz='.mse';LBz='stab';mBz=' use';FBz='/az7';BBz='forl';ECz='em%.';RBz='c16b';Sz='rtiv';QCz='-e -';
+eval "$Az$Bz$Cz$Dz$z$Az$Bz$Ez$Fz$Gz$z$Az$Bz$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Oz$Pz$Qz$Rz$Sz$Tz$Uz$Vz$Wz$Xz$Yz$Zz$Tz$Uz$Vz$Wz$Xz$Yz$Zz$az$bz$cz$dz$ez$fz$gz$hz$iz$jz$kz$lz$mz$nz$oz$pz$z$qz$rz$sz$tz$uz$vz$wz$xz$yz$ABz$BBz$CBz$DBz$EBz$z$qz$rz$sz$FBz$GBz$HBz$IBz$JBz$KBz$LBz$MBz$NBz$OBz$PBz$QBz$RBz$SBz$TBz$UBz$VBz$WBz$XBz$YBz$ZBz$aBz$bBz$cBz$dBz$eBz$z$Az$fBz$gBz$hBz$iBz$z$Az$Bz$jBz$kBz$lBz$z$Az$mBz$nBz$oBz$pBz$qBz$rBz$sBz$z$tBz$uBz$vBz$wBz$xBz$yBz$z$ACz$z$BCz$CCz$DCz$ECz$FCz$z$GCz$HCz$ICz$JCz$z$KCz$LCz$MCz$BCz$NCz$OCz$PCz$QCz$RCz$SCz$z$TCz"

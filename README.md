@@ -7,12 +7,16 @@
 ## Tareas a realizar
 
 - [ ] Instalacion en VM
-- [ ] [Ejecutar Script](/Scripts/ubuntu-setup.sh)
+- [ ] [Ejecutar Script:](/Scripts/ubuntu-setup.sh)
   - [ ] Descargar Script.
   - [ ] Asignar permisos de ejecucion.
   - [ ] Mover archivos .pst al directorio del script.
   - [ ] Ejecutar.
 - [ ] [Cargar archivos pst](/pst.md)
+- [ ] Registros de actividad en consola con script
+  - [ ] Buscar paquetes.
+  - [ ] Instalar paquetes.
+  - [ ] Desinstalar paquetes.
 - [ ] Configurar ip/netmask/default gateway con nmtui
-- [ ] Conectar a equipos utilizando cable de consola 
+- [ ] Conectar a equipos utilizando cable de consola (cutecom y putty)
 - [ ] VPN setup y revision de logs de network manager
