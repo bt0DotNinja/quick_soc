@@ -6,15 +6,15 @@
 
 ## Tareas a realizar
 
-- [ ] Instalacion en VM
-- [ ] [Ejecutar Script:](/Scripts/ubuntu-setup.sh)
-  - [ ] Descargar Script.
-  - [ ] Asignar permisos de ejecucion.
+- [x] Instalacion en VM
+- [x] [Ejecutar Script:](/Scripts/ubuntu-setup.sh)
+  - [x] Descargar Script.
+  - [x] Asignar permisos de ejecucion.
 ``` bash
 chmod +x ubuntu-setup.sh
 ```
-  - [ ] Mover archivos .pst al directorio del script.
-  - [ ] Ejecutar.
+  - [x] Mover archivos .pst al directorio del script.
+  - [x] Ejecutar.
 - [ ] [Cargar archivos pst](/pst.md)
 - [ ] Registros de actividad en consola con script
   - [ ] Buscar paquetes.
